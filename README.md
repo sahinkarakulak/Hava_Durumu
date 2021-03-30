@@ -53,3 +53,4 @@ Aşağıda örnek bir çıktı yer almakta.
    "cod":200
 }
 
+![Screenshot_1617063995](https://user-images.githubusercontent.com/38869245/112915864-04ba0d80-9108-11eb-8268-b55681a3b773.png)
