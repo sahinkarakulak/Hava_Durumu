@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
 
             alinan_sehir_ismi = edt_sehir_ismi.getText().toString().trim();
-            url = "https://api.openweathermap.org/data/2.5/weather?q=" + alinan_sehir_ismi + "&appid="+"SENİN_KEY_BURAYA_GELECEK";
+            url = "https://api.openweathermap.org/data/2.5/weather?q=" + alinan_sehir_ismi + "&appid="+"KENDİ_KEY_İNİZİ_OLUŞTURMAYI_UNUTMAYIN";
 
             stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override
