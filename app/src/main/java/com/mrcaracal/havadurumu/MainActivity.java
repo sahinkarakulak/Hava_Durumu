@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
 
             alinan_sehir_ismi = edt_sehir_ismi.getText().toString().trim();
-            url = "https://api.openweathermap.org/data/2.5/weather?q=" + alinan_sehir_ismi + "SENİN_KEYİN_BURAYA_GELECEK";
+            url = "https://api.openweathermap.org/data/2.5/weather?q=" + alinan_sehir_ismi + "&appid="+"SENİN_KEY_BURAYA_GELECEK";
 
             stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override
@@ -139,6 +139,8 @@ public class MainActivity extends AppCompatActivity {
 
                         str_boylam = jsonObject5.getString("lon");
                         txt_boylam.setText(": "+str_boylam);
+
+
 
                         Log.d(TAG, "onResponse: Çalıştı");
 
